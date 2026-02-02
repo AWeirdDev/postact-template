@@ -1,5 +1,16 @@
-import { Counter } from "./App";
+import { Todos } from "./Todos";
 import "./index.css";
 import { select } from "@postact/core";
 
-select("#root").render(<Counter initial={0} />);
+function App() {
+  return (
+    <div>
+      <h1>Todos</h1>
+      <div className="card">
+        <Todos />
+      </div>
+    </div>
+  );
+}
+
+select("#root").render(<App />);

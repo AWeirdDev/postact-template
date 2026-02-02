@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "@postact/client-router": "^0.0.4",
-    "@postact/core": "^0.0.13",
-    "@postact/jsx": "^0.0.8",
+    "@postact/core": "^0.0.15-rc0",
+    "@postact/jsx": "^0.0.10",
     "@postact/serde": "^0.0.1"
   },
   "devDependencies": {
